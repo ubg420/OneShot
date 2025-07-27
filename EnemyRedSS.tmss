@@ -1,0 +1,22 @@
+{
+    "image": "EnemyRed",
+    "frame": {
+        "width":30,
+        "height":30,
+        "count": 4
+    },
+
+    "animations": {
+        "tati": {
+            "frames": [0,1],
+            "next": "tati",
+            "frequency": 10
+        },
+        "Destroy": {
+            "frames": [2,3],
+            "next": "Destroy",
+            "frequency": 3
+        }
+    }
+
+}
